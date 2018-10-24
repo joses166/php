@@ -1,0 +1,10 @@
+<?php 
+
+echo PHP_VERSION;
+
+echo "<br>";
+
+//INDICA COMO É O SEPARADOR DE DIRETORIO
+echo DIRECTORY_SEPARATOR;
+
+?>

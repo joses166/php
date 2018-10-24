@@ -1,0 +1,31 @@
+<?php 
+
+$a = 10;
+
+//PRIMEIRO ELE MOSTRA O VALOR DA VARIAVEL E DEPOIS INCREMENTA UM NA VARIAVEL
+echo $a++;
+
+echo "<br>";
+
+echo $a;
+
+echo "<br>";
+
+//PRIMEIRO ELE INCREMENTA UM NA VARIAVEL E DEPOIS MOSTRA O VALOR DA VARIAVEL
+echo ++$a;
+
+echo "<br>";
+
+//PRIMEIRO ELE MOSTRA O VALOR DA VARIAVEL E DEPOIS DECREMENTA UM NA VARIAVEL
+echo $a--;
+
+echo "<br>";
+
+echo $a;
+
+echo "<br>";
+
+//PRIMEIRO ELE DECREMENTA UM NA VARIAVEL E DEPOIS MOSTRA O VALOR DA VARIAVEL
+echo --$a;
+
+?>
