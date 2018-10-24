@@ -32,7 +32,7 @@ class DelRey extends Automovel {
 
 }
 
-$carro = new Automovel();
+$carro = new DelRey();
 
 $carro->acelerar(200);
 
