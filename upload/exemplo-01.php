@@ -10,17 +10,20 @@
 
 <?php 
 
-if ( $_SERVER["REQUEST_METHOD"] === "POST" ) {
+if ( $_SERVER["REQUEST_METHOD"] === "POST" ) 
+{
 
     $file = $_FILES["fileUpload"];
     
-    if ( $file["error"] ) {
+    if ( $file["error"] ) 
+    {
         throw new Exception( "Error: " . $file["error"] );
     }
 
     $dirUploads = "upload";
 
-    if ( ! is_dir( $dirUploads ) ) {
+    if ( ! is_dir( $dirUploads ) ) 
+    {
         mkdir( $dirUploads );
     }//End if de verificacao de diretório se existe
 
