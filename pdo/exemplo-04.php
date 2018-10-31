@@ -1,6 +1,6 @@
 <?php 
 
-$conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "");
+$conn = new PDO("mysql:host=localhost;dbname=dbphp7", "**", "**");
 
 /*
 OS VALORES SAO PASSADOS EM VARIAVEIS E DEPOIS NO BIND PARAM

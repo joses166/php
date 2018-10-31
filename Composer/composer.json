@@ -1,0 +1,14 @@
+{
+    "name": "joses/composer",
+    "description": "Aula de PHP 7",
+    "authors": [
+        {
+            "name": "joses166",
+            "email": "ton.ton.leite@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"monolog/monolog": "1.0.*"
+	}
+}
