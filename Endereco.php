@@ -17,15 +17,15 @@ class Endereco
     
     public function __construct( $cep = "", $logradouro = "", $complemento = "", $bairro = "", $localidade = "", $uf = "", $unidade = "", $ibge = "", $gia = "" )
     {
-        $this->setCep() = $cep;
-        $this->setLogradouro() = $logradouro;
-        $this->setComplemento() = $complemento;
-        $this->setBairro() = $bairro;
-        $this->setLocalidade() = $localidade;
-        $this->setUf() = $uf;
-        $this->setUnidade() = $unidade;
-        $this->setIbge() = $ibge;
-        $this->setGia() = $gia;
+        $this->setCep($cep);
+        $this->setLogradouro($logradouro);
+        $this->setComplemento($complemento);
+        $this->setBairro($bairro);
+        $this->setLocalidade($localidade);
+        $this->setUf($uf);
+        $this->setUnidade($unidade);
+        $this->setIbge($ibge);
+        $this->setGia($gia);
     }
 
     public function getCep() 
